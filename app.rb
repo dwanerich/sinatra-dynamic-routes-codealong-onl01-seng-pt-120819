@@ -25,7 +25,7 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
   
-  post '/multiply/name' do
+  post '/multiply do
     
   end
     
