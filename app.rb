@@ -19,5 +19,8 @@ class App < Sinatra::Base
     end.first
     erb :'/medicines/show.html'
   end
+  
+  get '/goodbye/:name' do
+    
 
 end
