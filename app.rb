@@ -26,7 +26,7 @@ class App < Sinatra::Base
   end
   
   post '/multiply' do |num|
-    params[:id] * params[:id]
+    params[num1] * params[num2]
   end
     
 end
