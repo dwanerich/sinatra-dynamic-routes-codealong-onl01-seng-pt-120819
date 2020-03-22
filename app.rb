@@ -26,7 +26,6 @@ class App < Sinatra::Base
   end
   
   post '/multiply/name' do
-    @user_name = params[:name]
     
   end
     
