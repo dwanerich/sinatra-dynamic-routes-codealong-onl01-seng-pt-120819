@@ -25,7 +25,8 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
   
-  post '/multiply' do |num|
+  post '/multiply/name' do
+    @user_name = params[:name]
     
   end
     
