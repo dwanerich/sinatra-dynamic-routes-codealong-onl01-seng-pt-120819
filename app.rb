@@ -25,7 +25,9 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
   
-  post '/multiply' do
+  post '/multiply' do |num|
+    params[:id] * params[:id]
+  end
     
 
 end
