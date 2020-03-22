@@ -29,5 +29,4 @@ class App < Sinatra::Base
     params[:id] * params[:id]
   end
     
-
 end
